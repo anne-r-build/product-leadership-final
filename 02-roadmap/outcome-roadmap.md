@@ -1,25 +1,25 @@
-# Outcome Roadmap & Trade-off Memo
+# Outcome Roadmap & Trade-off Memo: Meridian Foundations
 
 > Module 2 · Turn Your Strategy into an Outcome Roadmap
 
 ## 1. Trade-off memo
 
-> **Rock 1:** _____
+> **Rock 1:** Build an offline-first mobile experience for job sites with poor connectivity (supports KR2): In order for teams to make updates in the field, Meridian needs to support job sites with poor connectivity as that is a common scenario for the field.
 >
-> **Rock 2:** _____
+> **Rock 2:** Simplify the daily log: reduce from 14 required fields to 4 (supports KR1): Reduces friction and barriers and encourages supplying the most critical project information.
 >
-> **Rock 3:** _____
+> **Rock 3:** Add AI-assisted RFI (Request for Information) drafting (supports KR3): Accelerates drafting and submission of RFIs which then supports turnaround time and value for the field.
 >
-> **Hard no 1:** _____
+> **Hard no 1:** Create a foreman-facing mobile app (separate from the PM web app): This is outside of the strategy - we will not create a stand-alone app for the field because it constraints our "how we win" principle of connected workflows and creates more complexity.
 >
-> **Hard no 2:** _____
+> **Hard no 2:** Build an executive reporting dashboard with custom KPIs: This is our hard no in the strategy - we will not invest in building new reporting until we solve the primary objective of closing the field gap.
 >
-> **Hard no 3:** _____
+> **Hard no 3:** Build a subcontractor portal with document sharing: This is not aligned to our strategy or priorities so it will need to move to the bottom of the backlog for now.
 
 ## 2. Outcome roadmap
 
 | Horizon | Outcome / bet | Owning team(s) | Success signal |
 |---|---|---|---|
-| Now (0 to 3 mo) | _____ | _____ | _____ |
-| Next (3 to 6 mo) | _____ | _____ | _____ |
-| Later (6 to 12 mo) | _____ | _____ | _____ |
+| **Now (0 to 3 mo)** | We bet an offline-first mobile experience will make Meridian as reliable as a text on low-connectivity job sites, shifting field updates away from WhatsApp for superintendents and foremen on pilot projects *(KR2)*; We bet cutting the daily log from 14 required fields to 4 will make it quick enough to finish every day, building a habit that keeps superintendents on pilot projects coming back month after month *(KR1)*; We bet AI-assisted drafting from field photos and notes will get complete, clear RFIs to approvers faster, so foremen get answers sooner *(KR3)* | Mobile engineering, UX research; Product, UX research, customer success; Product, mobile engineering | Share of pilot-project field updates that start in Meridian is rising toward 50%, and sync failures on low-connectivity sites stay rare; Daily log completion rate and completion time are improving, and monthly field retention is moving toward 60%; Time from field issue to submitted RFI and the share of RFIs sent back for clarification are both falling, and turnaround is trending toward 30% faster |
+| **Next (3 to 6 mo)** | Close the loop by sending answers, approvals, status and schedule changes back to crews on mobile, supported by push notifications, *because field input has to flow into Meridian before there's anything to send back*; Route photos, voice notes, and quick notes automatically into issues, documents, and daily logs, *because routing rules need real capture volume from the Now bets to learn from*; Turn the pilot results into a customer success field-rollout playbook and extend it to more top-100 customers, *because we need pilot evidence of what drives adoption before we scale it*; Define the commercial model for field use (pricing, packaging, renewal lever), *because pricing needs adoption and value data from the pilots*; Give subcontractor crews access through existing compliance records, *because GC field crews need to be adopting first so subs join an active workflow* | Product, mobile engineering; Product, engineering; Customer success, UX research; Product, customer success; Product, customer success | Field users opening push notifications and acting on answers, approvals, and schedule changes in-app; less manual triage by PMs; adoption rates in non-pilot customers similar to the pilots; a pricing model validated with two or three customers; sub crews active on GC projects |
+| **Later (6 to 12 mo)** | *Bet:* A field-first offering on the same data model will land $5M–$50M contractors and expand them into the full platform; *Bet:* An automated compliance checklist generator, built from the subcontractor compliance and project requirements already in Meridian, will give field crews the right site checklists on mobile and give enterprise compliance teams verified completion records, strengthening the field habit while protecting enterprise renewals; *Bet:* A time tracking module that lets foremen log crew hours from the field alongside the daily log will replace paper timesheets and texted hours, adding another daily field habit and closing a gap customers are raising in contract negotiations | Product, customer success; Product, UX research, customer success; Product, mobile engineering, customer success | New mid-market customers landed and expanding to the platform, with lower churn in that segment; share of required site checklists completed in Meridian by field crews, and enterprise customers citing it in renewals; share of crew hours logged in Meridian on active projects, and deals where time tracking removed a negotiation blocker |
